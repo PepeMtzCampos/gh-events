@@ -3,7 +3,7 @@ name: Events Demo 1
 # on: [push, workflow_dispatch]
 on: 
   pull_request: #event
-    types: #type
+    types: 
       - opened
   workflow_dispatch: #event
   push: #event
